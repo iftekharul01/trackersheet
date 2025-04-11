@@ -12,11 +12,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool isPressed = false; // ✅ Track button press                                                                                                                                                                                                                                                                                                                           
+  bool isPressed = false;                                                                                                                                                                                                                                                                                                                          
 
   void onPress() {
     setState(() {
-      isPressed = true; // ✅ Change state when button is pressed
+      isPressed = true; 
     });
   }
 
@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Problem 02',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Problem 02'),
+          title: Text('Problem 02'),
           centerTitle: true,
         ),
         body: Center(
@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
             children: [
               Text(
                 isPressed ? 'Button Pressed!' : 'Hello World!',
-                style: TextStyle(fontSize: 30.0, 
+                style: TextStyle(fontSize: 30, 
                 color: isPressed ? Colors.blue.shade500 : Colors.blue.shade200,
                 ),
               ),

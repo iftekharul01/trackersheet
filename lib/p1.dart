@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Text(
-            'Hello, World!',
+            'Hello World!',
             style: TextStyle(
-              fontSize: 30.0,
+              fontSize: 30,
               fontFamily: 'Times New Roman',
               fontWeight: FontWeight.bold,
               color: (Colors.blue.shade100),

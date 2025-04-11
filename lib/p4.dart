@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                   fontSize: 40,
                   color: Colors.red,
                   fontFamily: 'DM Sans',
-                  fontWeight: FontWeight.w500, // Medium
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               Text(
