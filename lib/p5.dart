@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 24,
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
